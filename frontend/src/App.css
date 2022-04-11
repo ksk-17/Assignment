@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  min-height: 98vh;
+  padding-top: 20px;
+  background-color: beige;
+}
+.body{
+  width:70%;
+  margin: auto;
+}
+
+.form{
+  position: relative;
+}
+
+.question{
+  text-align: left;
+  width:100%;
+  background-color: white;
+  padding: 5px 10px;
+  margin: 15px 0px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.question Button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.addQuestionForm{
+  text-align: left;
+  width:100%;
+  background-color: white;
+  padding: 10px 10px;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+.addOptionFormFooter{
+  display: inline-flex;
+  padding:5px 0px;
+}
+
+
+
+.option{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 400px;
+  padding: 5px 0px;
+}
+
+
+.optionInput{
+  margin-left: 5px;
+  display: inline;
+}
+
+.menuOptions{
+  background-color: white;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom:300px;
+  right:40px;
+
+}
+
+.buttons Button{
+  padding: 10px 30px;
+  margin: 5px;
+}
